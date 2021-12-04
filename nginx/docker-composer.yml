@@ -1,9 +1,9 @@
 version: '3.8'
 
 x-common-variables: &common-variables
-  MYSQL_DATABASE: books
-  MYSQL_USER: MYSQL_USER
-  MYSQL_PASSWORD: MYSQL_PASSWORD
+  MYSQL_DATABASE: libros
+  MYSQL_USER: INGRID
+  MYSQL_PASSWORD: intavega
 
 services:
   mysql_db:
